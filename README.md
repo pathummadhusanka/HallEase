@@ -40,11 +40,13 @@ This project follows a Git branching model where:
 - **Main branch (`main`)**: Contains the stable, production-ready code. This is the branch that gets deployed.
 - **Development branch (`develop`)**: This branch is used for ongoing development. It serves as an integration branch for features, bug fixes, and other changes before they are merged into `main`.
 
-### Contribution Workflow
+## Contribution Workflow
 
 When contributing to the project, follow this workflow:
 
-1. **Start from `develop`**: Make sure you're working on the `develop` branch. Run:
+1. **Report or Check for Issues**: Before you start working, please check the existing issues in our repository. If you encounter a bug or have a feature request, open a new issue using our [issue template](.github/ISSUE_TEMPLATE.md). Provide as much detail as possible, including steps to reproduce the issue and any relevant screenshots.
+
+2. **Start from `develop`**: Make sure you're working on the `develop` branch. Run:
 
    ```bash
    git checkout develop
@@ -56,7 +58,7 @@ When contributing to the project, follow this workflow:
    git pull origin develop
    ```
 
-2. **Create a new branch**: For your work, create a new branch using the appropriate naming convention:
+3. **Create a new branch**: For your work, create a new branch using the appropriate naming convention:
 
 - **Feature branches**: Use `feature/<feature-name>` for new features.
 
@@ -73,9 +75,9 @@ When contributing to the project, follow this workflow:
 - **Chore tasks**: Use `chore/<description>` for maintenance tasks (e.g., updating dependencies).
   - Example: `chore/update-dependencies`
 
-3. **Make a Pull Request (PR)**: Once your work is completed and tested, submit a pull request to merge your branch into the `develop` branch.
+4. **Make a Pull Request (PR)**: Once your work is completed and tested, submit a pull request to merge your branch into the `develop` branch.
 
 - All new development should be merged into `develop`, **not** `main`.
-- Ensure your PR description clearly explains the changes you've made.
+- Make sure to follow our [pull request template](.github/PULL_REQUEST_TEMPLATE.md) to provide all necessary information about your changes. This helps streamline the review process.
 
 By following this branching strategy and naming conventions, we maintain a smooth development workflow and ensure stable releases.
