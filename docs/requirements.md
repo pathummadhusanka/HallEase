@@ -8,6 +8,8 @@ There should be a priority base access control
 - **Admin** - *Administrators can manage all users, halls, and bookings.*  
 - **Users** - *can view hall availability and book halls under certain conditions.*
 
+> [view user management in plan](./plan.md#1-user-management)
+
 
 ### 2. Hall Booking System
 
@@ -20,6 +22,8 @@ There should be a priority base access control
 
     - also a user can cancel or modify the booked reservations
 
+> [view hall booking in plan](./plan.md#2-hall-booking)
+
 ### 3. Calender & Graphical representation
 
 - **Calendar** 
@@ -29,6 +33,8 @@ There should be a priority base access control
 
 - **Graphical Interfaces**(optional)
     - Users can view the hall in graphical view. it should display the details of that hall
+
+> [view representations in plan](./plan.md#3-calendar--graphical-representation)
 
 ### 4. Notifications and Alerts
 
@@ -41,6 +47,7 @@ There should be a priority base access control
 - **Canceled Booking Alerts**
     - The system shall notify users if their booking is canceled by an administrator or if there are overdue payments (if applicable).
 
+> [view notifications in plan](./plan.md#4-notifications-and-alerts)
 
 ---
 > Later developments
@@ -54,6 +61,8 @@ There should be a priority base access control
 - Automated Scheduling Optimization
 
 - Reporting and Analytics
+
+> [view AI features in plan](./plan.md#5-aiml-features)
 
 ### 6. Key Management System
 
