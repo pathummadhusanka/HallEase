@@ -1,0 +1,23 @@
+# Ignore node_modules directories
+node_modules
+backend/node_modules
+frontend/node_modules
+
+# Ignore build directories
+backend/build
+frontend/build
+
+# Ignore log files
+*.log
+
+# Ignore environment variable files (if you manage them securely)
+*.env
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore any local configuration files
+*.local
+*.tmp
